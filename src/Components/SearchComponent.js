@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import Foodbox from "./Foodbox";
 import Searchbar from "./Searchbar";
 import { DataContext } from "./../Context/Context";
-import AlergenosPopUp from "./AlergenosPopUp";
+import AlergenosPopUp from "./../Components/AlergenosPopUp";
 
 
 const SearchComponent = () => {

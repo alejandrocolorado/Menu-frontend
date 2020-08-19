@@ -1,33 +1,36 @@
 {
   "places": [{
-    "restaurant": "La Rovira",
-    "place": "larovira",
-    "iso": "https://res.cloudinary.com/grountish/image/upload/v1595088760/larovira_diiku0.png",
-    "sugerenciaDelDiaTitulo": "Guineu Txiripa",
-    "sugerenciaDelDiaTitulo_en": "Guineu Txiripa",
-    "sugerenciaDelDiaTitulo_es": "Guineu Txiripa",
-    "sugerenciaDelDiaBoton": "tancar",
-    "sugerenciaDelDiaBoton_en": "close",
-    "sugerenciaDelDiaBoton_es": "cerrar",
-    "sugerenciaDelDiaImg": "https://res.cloudinary.com/grountish/image/upload/v1597680879/guineu_lshuma.png",
-    "sugerenciaDelDiaDescripcion": "Cervesa d'estil IPA elaborada amb blat, tres tipus de malt i diversos llúpols cítrics americans. Ideal per acompanyar amb unes braves la Rovira o un entrepà Martí!",
-    "sugerenciaDelDiaDescripcion_en": "IPA-style beer made with wheat, along with three types of malt and several American citrus hops. Best friend to La Rovira bravas or a Martí sandwich!",
-    "sugerenciaDelDiaDescripcion_es": "Cerveza de estilo IPA elaborada con trigo, junto a tres tipos de malta y varios lúpulos cítricos americanos. Ideal para acompañarla con unas bravas La Rovira o un bocadillo Martí!",
-    "backgroundColor": "black",
-    "overlayColor" : "rgba(0,0,0, 0.5)",
-    "borderButton": "1px solid #FFF",
-    "modalBackgroundColor": "#FFF",
-    "font": "Tommaso",
-    "color": "#FFF",
-    "categorias": [ {
+      "restaurant": "La Rovira",
+      "place": "larovira",
+      "iso": "https://res.cloudinary.com/grountish/image/upload/v1595088760/larovira_diiku0.png",
+      "backgroundColor": "black",
+      "overlayColor": "rgba(0,0,0, 0.5)",
+      "borderButton": "1px solid #FFF",
+      "modalBackgroundColor": "#FFF",
+      "font": "Tommaso",
+      "color": "#FFF",
+      "divisiones": [{
+          "nombre": "àpats",
+          "nombre_en": "food",
+          "nombre_es": "comida"
+        },
+        {
+          "nombre": "begudes",
+          "nombre_es": "bebidas",
+          "nombre_en": "drinks"
+        }
+      
+    ],
+    "categorias": [{
+      "division": "bebidas",
       "nombre": "cerveses",
-      "nombre_en":"beer",
-      "nombre_es":"cervezas",
+      "nombre_en": "beer",
+      "nombre_es": "cervezas",
       "imagen": "https://okasional-beer.com/blog-cerveza-artesana/wp-content/uploads/2019/04/cerveses-la-pirata-okasional-beer.jpg",
       "data": [{
           "nombre": "1. Guineu Txiripa",
-          "nombre_en":"1. Guineu Txiripa",
-          "nombre_es":"1. Guineu Txiripa",
+          "nombre_en": "1. Guineu Txiripa",
+          "nombre_es": "1. Guineu Txiripa",
           "descripcion": "IPA - Catalunya - 6%",
           "descripcion_en": "IPA - Catalunya - 6%",
           "descripcion_es": "IPA - Catalunya - 6%",
@@ -38,8 +41,8 @@
         },
         {
           "nombre": "2. Cloudwater Gyle",
-          "nombre_en":"2. Cloudwater Gyle",
-          "nombre_es":"2. Cloudwater Gyle",
+          "nombre_en": "2. Cloudwater Gyle",
+          "nombre_es": "2. Cloudwater Gyle",
           "descripcion": "DDH Pale Ale - Anglaterra - 5.5%",
           "descripcion_en": "DDH Pale Ale - England - 5.5%",
           "descripcion_es": "DDH Pale Ale - Inglaterra - 5.5%",
@@ -50,8 +53,8 @@
         },
         {
           "nombre": "3. Kusfollin",
-          "nombre_en":"3. Kusfollin",
-          "nombre_es":"3. Kusfollin",
+          "nombre_en": "3. Kusfollin",
+          "nombre_es": "3. Kusfollin",
           "descripcion": "APA - Catalunya - 5.5%",
           "descripcion_en": "APA - Catalunya - 5.5%",
           "descripcion_es": "APA - Catalunya - 5.5%",
@@ -62,8 +65,8 @@
         },
         {
           "nombre": "4. Oakham Green Devil",
-          "nombre_en":"4. Oakham Green Devil",
-          "nombre_es":"4. Oakham Green Devil",
+          "nombre_en": "4. Oakham Green Devil",
+          "nombre_es": "4. Oakham Green Devil",
           "descripcion": "IPA - Anglaterra - 6%",
           "descripcion_en": "IPA - England - 6%",
           "descripcion_es": "IPA - Inglaterra - 6%",
@@ -74,8 +77,8 @@
         },
         {
           "nombre": "5. La Salvatge Inframon",
-          "nombre_en":"5. La Salvatge Inframon",
-          "nombre_es":"5. La Salvatge Inframon",
+          "nombre_en": "5. La Salvatge Inframon",
+          "nombre_es": "5. La Salvatge Inframon",
           "descripcion": "Saison Brett - Catalunya - 6%",
           "descripcion_en": "Saison Brett - Catalunya - 6%",
           "descripcion_es": "Saison Brett - Catalunya - 6%",
@@ -86,8 +89,8 @@
         },
         {
           "nombre": "6. La Pirata Hazy Primavera",
-          "nombre_en":"6. La Pirata Hazy Primavera",
-          "nombre_es":"6. La Pirata Hazy Primavera",
+          "nombre_en": "6. La Pirata Hazy Primavera",
+          "nombre_es": "6. La Pirata Hazy Primavera",
           "descripcion": "Session IPA - Catalunya - 3.8%",
           "descripcion_en": "Session IPA - Catalunya - 3.8%",
           "descripcion_es": "Session IPA - Catalunya - 3.8%",
@@ -98,8 +101,8 @@
         },
         {
           "nombre": "7. Fermun Red Alert",
-          "nombre_en":"7. Fermun Red Alert",
-          "nombre_es":"7. Fermun Red Alert",
+          "nombre_en": "7. Fermun Red Alert",
+          "nombre_es": "7. Fermun Red Alert",
           "descripcion": "Irish Red Ale - Catalunya - 3.8%",
           "descripcion_en": "Irish Red Ale - Catalunya - 3.8%",
           "descripcion_es": "Irish Red Ale - Catalunya - 3.8%",
@@ -110,8 +113,8 @@
         },
         {
           "nombre": "8. Beerbliotek I'm so aware",
-          "nombre_en":"8. Beerbliotek I'm so aware",
-          "nombre_es":"8. Beerbliotek I'm so aware",
+          "nombre_en": "8. Beerbliotek I'm so aware",
+          "nombre_es": "8. Beerbliotek I'm so aware",
           "descripcion": "Double IPA - Suecia - 7.9%",
           "descripcion_en": "Double IPA - Sweden - 7.9%",
           "descripcion_es": "Double IPA - Suecia - 7.9%",
@@ -122,20 +125,20 @@
         },
         {
           "nombre": "9. Brighton Bier Downtown Charlie Brown",
-          "nombre_en":"9. Brighton Bier Downtown Charlie Brown",
-          "nombre_es":"9. Brighton Bier Downtown Charlie Brown",
+          "nombre_en": "9. Brighton Bier Downtown Charlie Brown",
+          "nombre_es": "9. Brighton Bier Downtown Charlie Brown",
           "descripcion": "American Brown Stout - Anglaterra - 6%",
           "descripcion_en": "American Brown Stout - England - 6%",
           "descripcion_es": "American Brown Stout - Inglaterra - 6%",
           "precio": "6.80 / 4",
           "tags": "cervesa torrada afruitada lupulada",
-          "tags_en":  "beer toasted fruity hopped",
-          "tags_es":  "cerveza tostada afrutada lupulada"
+          "tags_en": "beer toasted fruity hopped",
+          "tags_es": "cerveza tostada afrutada lupulada"
         },
         {
           "nombre": "10. Seven Islands Hazelnut Moctezuma",
-          "nombre_en":"10. Seven Islands Hazelnut Moctezuma",
-          "nombre_es":"10. Seven Islands Hazelnut Moctezuma",
+          "nombre_en": "10. Seven Islands Hazelnut Moctezuma",
+          "nombre_es": "10. Seven Islands Hazelnut Moctezuma",
           "descripcion": "Imperial Stout - Catalunya - 13%",
           "descripcion_en": "Imperial Stout - Catalunya - 13%",
           "descripcion_es": "Imperial Stout - Catalunya - 13%",
@@ -146,8 +149,8 @@
         },
         {
           "nombre": "11. Guineu Real Fruit",
-          "nombre_en":"11. Guineu Real Fruit",
-          "nombre_es":"11. Guineu Real Fruit",
+          "nombre_en": "11. Guineu Real Fruit",
+          "nombre_es": "11. Guineu Real Fruit",
           "descripcion": "Berliner Weisse - Catalunya - 4.4%",
           "descripcion_en": "Berliner Weisse - Catalunya - 4.4%",
           "descripcion_es": "Berliner Weisse - Catalunya - 4.4%",
@@ -158,8 +161,8 @@
         },
         {
           "nombre": "12. Agullons Hops and Hopes",
-          "nombre_en":"12. Agullons Hops and Hopes",
-          "nombre_es":"12. Agullons Hops and Hopes",
+          "nombre_en": "12. Agullons Hops and Hopes",
+          "nombre_es": "12. Agullons Hops and Hopes",
           "descripcion": "English Pale Ale - Catalunya - 5.5%",
           "descripcion_en": "English Pale Ale - Catalunya - 5.5%",
           "descripcion_es": "English Pale Ale - Catalunya - 5.5%",
@@ -170,8 +173,8 @@
         },
         {
           "nombre": "13. Agullons Runa",
-          "nombre_en":"13. Agullons Runa",
-          "nombre_es":"13. Agullons Runa",
+          "nombre_en": "13. Agullons Runa",
+          "nombre_es": "13. Agullons Runa",
           "descripcion": "Brown Ale - Catalunya - 5%",
           "descripcion_en": "Brown Ale - Catalunya - 5%",
           "descripcion_es": "Brown Ale - Catalunya - 5%",
@@ -182,8 +185,8 @@
         },
         {
           "nombre": "14. Cierzo Vertigo",
-          "nombre_en":"14. Cierzo Vertigo",
-          "nombre_es":"14. Cierzo Vertigo",
+          "nombre_en": "14. Cierzo Vertigo",
+          "nombre_es": "14. Cierzo Vertigo",
           "descripcion": "Doble IPA - Zaragoza - 9%",
           "descripcion_en": "Double IPA - Zaragoza - 9%",
           "descripcion_es": "Doble IPA - Zaragoza - 9%",
@@ -194,8 +197,8 @@
         },
         {
           "nombre": "15. Oud Beersel",
-          "nombre_en":"15. Oud Beersel",
-          "nombre_es":"15. Oud Beersel",
+          "nombre_en": "15. Oud Beersel",
+          "nombre_es": "15. Oud Beersel",
           "descripcion": "Framboise Fruit Lambic - Belgica - 5%",
           "descripcion_en": "Framboise Fruit Lambic - Belgium - 5%",
           "descripcion_es": "Framboise Fruit Lambic - Belgica - 5%",
@@ -206,32 +209,32 @@
         },
         {
           "nombre": "Estrella Galicia Bodega",
-          "nombre_en":"Estrella Galicia Bodega",
-          "nombre_es":"Estrella Galicia Bodega",
+          "nombre_en": "Estrella Galicia Bodega",
+          "nombre_es": "Estrella Galicia Bodega",
           "descripcion": "5.5%",
           "descripcion_en": "5.5%",
           "descripcion_es": "5.5%",
           "precio": "2.20 / 2.80 / 4",
           "tags": "cervesa",
           "tags_en": "beer",
-          "tags_es":"cerveza"
+          "tags_es": "cerveza"
         },
         {
           "nombre": "Estrella Galicia 1906",
-          "nombre_en":"Estrella Galicia 1906",
-          "nombre_es":"Estrella Galicia 1906",
+          "nombre_en": "Estrella Galicia 1906",
+          "nombre_es": "Estrella Galicia 1906",
           "descripcion": "8%",
           "descripcion_en": "8%",
           "descripcion_es": "8%",
           "precio": "2.50 / 2.80 / 4.80",
           "tags": "cervesa",
           "tags_en": "beer",
-          "tags_es":"cerveza"
+          "tags_es": "cerveza"
         },
         {
           "nombre": "Erdinger Weisse",
-          "nombre_en":"Erdinger Weisse",
-          "nombre_es":"Erdinger Weisse",
+          "nombre_en": "Erdinger Weisse",
+          "nombre_es": "Erdinger Weisse",
           "descripcion": "Blat - 5.5%",
           "descripcion_en": "Wheat - 5.5%",
           "descripcion_es": "Trigo - 5.5%",
@@ -241,10 +244,11 @@
           "tags_es": "cerveza celiaco"
         }
       ]
-    },{
+    }, {
+      "division": "comida",
       "nombre": "Aperitius",
-      "nombre_en":"Appetizers",
-      "nombre_es":"Aperitivos",
+      "nombre_en": "Appetizers",
+      "nombre_es": "Aperitivos",
       "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
       "data": [{
           "nombre": "Patats xips",
@@ -335,7 +339,7 @@
           "descripcion_es": "",
           "precio": "5.9 / 6.2",
           "tags": ""
-          },
+        },
         {
           "nombre": "Olives estil La Rovira",
           "nombre_en": "La Rovira Olives",
@@ -345,7 +349,7 @@
           "descripcion_es": "",
           "precio": "2.6 / 2.8",
           "tags": ""
-          },
+        },
         {
           "nombre": "Variat d'olives",
           "nombre_en": "Olives",
@@ -355,7 +359,7 @@
           "descripcion_es": "",
           "precio": "3 / 3.2",
           "tags": ""
-          },
+        },
         {
           "nombre": "Banderilla",
           "nombre_en": "Banderilla",
@@ -365,7 +369,7 @@
           "descripcion_es": "",
           "precio": "1 / 1.2",
           "tags": ""
-         },
+        },
         {
           "nombre": "Pebrotet farcit de formatge",
           "nombre_en": "Peppers with cheese",
@@ -385,7 +389,7 @@
           "descripcion_es": "",
           "precio": "1 / 1.2",
           "tags": "",
-          "alergenos":[1,2]
+          "alergenos": [1, 2]
         },
         {
           "nombre": "Pebrotet farcit de tonyina",
@@ -396,7 +400,7 @@
           "descripcion_es": "",
           "precio": "1 / 1.2",
           "tags": "",
-          "alergenos":[3]
+          "alergenos": [3]
         },
         {
           "nombre": "Escarxofa marinada",
@@ -418,11 +422,12 @@
           "precio": "2.8 / 3",
           "tags": ""
         }
-    ]
-    },{
+      ]
+    }, {
+      "division": "comida",
       "nombre": "amanides",
-      "nombre_en":"salads",
-      "nombre_es":"ensaladas",
+      "nombre_en": "salads",
+      "nombre_es": "ensaladas",
       "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
       "data": [{
           "nombre": "Amanida Sors",
@@ -433,7 +438,7 @@
           "descripcion_es": "Ensalada de burrata con rúcula, tomate seco y piñones",
           "precio": "8 / 8,2",
           "tags": "ensalada salad amanida",
-          "alergenos":[1,5]
+          "alergenos": [1, 5]
         },
         {
           "nombre": "Amanida Vilafranca",
@@ -444,7 +449,7 @@
           "descripcion_es": "Mesclum, pepino, zanahoria, cebolla, frutos secos y vinagreta de mostazas",
           "precio": "6,5 / 6,7",
           "tags": "ensalada salad amanida",
-          "alergenos":[2]
+          "alergenos": [2]
         },
         {
           "nombre": "Amanida Encarnaciò",
@@ -453,15 +458,16 @@
           "descripcion": "Amanida de tomàquet de pagès, ventresca de tonyina i ceba marinada",
           "descripcion_en": "Peasant tomato salad, tuna belly and marinated onion",
           "descripcion_es": "Ensalada de tomate de campo, ventresca de atún y cebolla marinada",
-          "precio":"8,2 / 8,4",
+          "precio": "8,2 / 8,4",
           "tags": "tapeta vegetaria tapa vegetarian vegetariano",
-          "alergenos":[2]
+          "alergenos": [2]
         }
       ]
     }, {
+      "division":"comida",
       "nombre": "plantxats",
-      "nombre_en":"sandwiches",
-      "nombre_es":"bocadillos",
+      "nombre_en": "sandwiches",
+      "nombre_es": "bocadillos",
       "imagen": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
       "data": [{
           "nombre": "Reig i Bonet",
@@ -474,7 +480,7 @@
           "tags": "plantxat sandwitch bocadillo",
           "tags_en": "plantxat sandwitch bocadillo",
           "tags_es": "plantxat sandwitch bocadillo",
-          "alergenos":[3]
+          "alergenos": [3]
         },
         {
           "nombre": "Verdi",
@@ -499,7 +505,7 @@
           "tags": "plantxat sandwitch bocadillo",
           "tags_en": "plantxat sandwitch bocadillo",
           "tags_es": "plantxat sandwitch bocadillo"
-          
+
         },
         {
           "nombre": "Escorial",
@@ -563,9 +569,10 @@
         }
       ]
     }, {
+      "division":"comida",
       "nombre": "tapetes",
-      "nombre_en":"tapas",
-      "nombre_es":"tapas",
+      "nombre_en": "tapas",
+      "nombre_es": "tapas",
       "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
       "data": [{
           "nombre": "Naxos",
@@ -619,7 +626,8 @@
         }
       ]
     }]
-  }, {
+  },
+  {
     "restaurant": "La Panxa",
     "place": "lapanxa",
     "iso": "https://fastly.4sqi.net/img/general/600x600/3473887_C4QgmcdbJvtuLQENruGG0R4BFo1MosvtAPJLNHcCDWY.jpg",
@@ -627,14 +635,15 @@
     "font": "Roboto",
     "color": "#black",
     "categorias": [{
+      "division": "comida",
       "nombre": "tapes / plats",
-      "nombre_en":"tapes / plates",
-      "nombre_es":"tapas / platos",
+      "nombre_en": "tapes / plates",
+      "nombre_es": "tapas / platos",
       "imagen": "https://okasional-beer.com/blog-cerveza-artesana/wp-content/uploads/2019/04/cerveses-la-pirata-okasional-beer.jpg",
       "data": [{
           "nombre": "1. Guineu Txiripa",
-          "nombre_en":"1. Guineu Txiripa",
-          "nombre_es":"1. Guineu Txiripa",
+          "nombre_en": "1. Guineu Txiripa",
+          "nombre_es": "1. Guineu Txiripa",
           "descripcion": "IPA - Catalunya - 6%",
           "descripcion_en": "IPA - Catalunya - 6%",
           "descripcion_es": "IPA - Catalunya - 6%",
@@ -645,20 +654,21 @@
         },
         {
           "nombre": "2. Cloudwater Gyle",
-          "nombre_en":"2. Cloudwater Gyle",
-          "nombre_es":"2. Cloudwater Gyle",
+          "nombre_en": "2. Cloudwater Gyle",
+          "nombre_es": "2. Cloudwater Gyle",
           "descripcion": "DDH Pale Ale - Anglaterra - 5.5%",
           "descripcion_en": "DDH Pale Ale - England - 5.5%",
           "descripcion_es": "DDH Pale Ale - Inglaterra - 5.5%",
           "precio": "7.50 / 4.70",
           "tags": "cerveza afrutada cervesa beer fruity hopped fresh afruitada lupulada fresca"
         }
-        
+
       ]
     }, {
+      "division": "comida",
       "nombre": "plantxats",
-      "nombre_en":"sandwiches",
-      "nombre_es":"bocadillos",
+      "nombre_en": "sandwiches",
+      "nombre_es": "bocadillos",
       "imagen": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
       "data": [{
           "nombre": "Reig i Bonet",
@@ -745,8 +755,8 @@
       ]
     }, {
       "nombre": "tapetes",
-      "nombre_en":"tapas",
-      "nombre_es":"tapas",
+      "nombre_en": "tapas",
+      "nombre_es": "tapas",
       "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
       "data": [{
           "nombre": "Naxos",

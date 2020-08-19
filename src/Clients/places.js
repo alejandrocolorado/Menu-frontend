@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import CategoryList from "../Components/CategoryList";
+import DivisionList from "../Components/DivisionList";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Foodlist from "../Components/Foodlist";
+import DividedFoodlist from "../Components/DividedFoodList";
 import { DataContext } from "./../Context/Context";
 import SearchComponent from "../Components/SearchComponent";
 import foods from "../foods.json";
@@ -139,11 +140,16 @@ function Places() {
                   <Route
                     exact
                     path="/:place"
-                    render={(props) => <CategoryList {...props} lang={lang} />}
+                    render={(props) => <DivisionList {...props} lang={lang} />}
                   />
                   <Route
                     exact
-                    path="/:place/category/:categoryName"
+                    path="/:place/division/:divisionName"
+                    render={(props) => <DividedFoodlist {...props} lang={lang} />}
+                  />
+                  <Route
+                    exact
+                    path="/:place/division/:divisionName/category/:categoryName"
                     render={(props) => <Foodlist {...props} lang={lang} />}
                   />
                 </div>
